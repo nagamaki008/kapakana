@@ -1,4 +1,4 @@
-<img src="./0320.jpg" />
+<img src="./head.jpg" />
 
 # カパかな
 
@@ -15,6 +15,16 @@
 ・バリアブルフォント化
 
 ・Pinyon Script体とのスタイル統一
+
+
+
+2020.7.1追記
+
+・Pinyon Script体のスタイルをベースとした書体にフルリメイクしました。
+
+・カタカナが追加されました。
+
+・カーニングは調整中です。
 
 
 
@@ -39,3 +49,7 @@ https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
 ## 収録文字
 
 ・ひらがな
+
+・カタカナ
+
+・アルファベット(Pinyon Script)
