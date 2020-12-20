@@ -8,13 +8,21 @@
 
 カッパープレート体をモチーフにしたひらがな書体を作りました。
 
-2020年10月を目標に下記内容の更新を行います。
+ひらがなのみの展開でしたが、カタカナの追加と既存書体とのデザイン統一を行いました。
 
-・カタカナの追加
+ベース書体はPinyon Scriptです。
 
-・バリアブルフォント化
+バリアブルフォントにもなっています。
 
-・Pinyon Script体とのスタイル統一
+
+
+# Kapakana
+
+Kana typeface with a copperplate script as a motif
+
+In the updated version released in 2018, the design has been redesigned based on the pinyon script.
+
+Created as a variable font.
 
 
 
@@ -38,7 +46,7 @@ SIL Open Font License Version 1.1に基づきます。
 
 ・フォント単体での販売はできません。
 
-・派生フォントに「ニューテゴミン」の名前を冠することはできません。
+・派生フォントに「カパかな」の名前を冠することはできません。
 
 詳しくは下記リンクよりライセンス全文がご覧いただけますのでご利用ください。
 
