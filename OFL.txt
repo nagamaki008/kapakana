@@ -1,4 +1,4 @@
-Copyright 2020 KAPAKANA Project Authors (https://github.com/nagamaki008/NewTegomin)
+Copyright 2020 The Kapakana Project Authors (https://github.com/nagamaki008/kapakana)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
