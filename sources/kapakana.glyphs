@@ -1,20 +1,27 @@
 {
 .appVersion = "3311";
-DisplayStrings = (
-"/vi-kata",
-"Ï"
-);
+copyright = "Copyright 2020 The Kapakana Project Authors (https://github.com/nagamaki008/kapakana)";
 customParameters = (
 {
-name = glyphOrder;
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
 value = (
-.notdef,
-space
 );
 },
 {
-name = ROS;
-value = "Adobe-Identity-0";
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = NGMK;
 },
 {
 name = Axes;
@@ -28,40 +35,12 @@ Tag = wght;
 );
 date = "2020-05-05 02:21:19 +0000";
 designer = "Kousuke Nagai";
-familyName = kapakana;
+familyName = Kapakana;
 fontMaster = (
 {
-ascender = 880;
-capHeight = 892;
+ascender = 680;
+capHeight = 535;
 customParameters = (
-{
-name = typoAscender;
-value = 1768;
-},
-{
-name = typoDescender;
-value = -787;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1768;
-},
-{
-name = winDescent;
-value = 787;
-},
-{
-name = hheaAscender;
-value = 1768;
-},
-{
-name = hheaDescender;
-value = -787;
-},
 {
 name = strikeoutPosition;
 value = 458;
@@ -69,91 +48,49 @@ value = 458;
 {
 name = strikeoutSize;
 value = 57;
-}
-);
-descender = -120;
-id = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
-xHeight = 390;
-},
-{
-ascender = 880;
-capHeight = 892;
-customParameters = (
-{
-name = typoAscender;
-value = 1768;
-},
-{
-name = typoDescender;
-value = -787;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1768;
-},
-{
-name = winDescent;
-value = 787;
-},
-{
-name = hheaAscender;
-value = 1768;
-},
-{
-name = hheaDescender;
-value = -787;
-},
-{
-name = strikeoutPosition;
-value = 458;
-},
-{
-name = strikeoutSize;
-value = 57;
+name = hheaLineGap;
+value = 0;
 }
 );
-descender = -120;
+descender = -320;
 id = "A92E3ADA-722A-4108-B621-F991B1803EEA";
 weight = Light;
 weightValue = 10;
-xHeight = 390;
+xHeight = 250;
+},
+{
+ascender = 680;
+capHeight = 535;
+customParameters = (
+{
+name = strikeoutPosition;
+value = 458;
+},
+{
+name = strikeoutSize;
+value = 57;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+descender = -320;
+id = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
+xHeight = 250;
 }
 );
 glyphs = (
-{
-glyphname = .notdef;
-lastChange = "2024-11-25 23:02:52 +0000";
-layers = (
-{
-layerId = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
-width = 376;
-},
-{
-layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
-width = 376;
-}
-);
-note = .notdef;
-},
-{
-glyphname = space;
-lastChange = "2024-11-25 23:02:52 +0000";
-layers = (
-{
-layerId = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
-width = 300;
-},
-{
-layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
-width = 300;
-}
-);
-unicode = 0020;
-},
 {
 glyphname = A;
 lastChange = "2024-11-25 23:02:52 +0000";
@@ -126602,6 +126539,21 @@ note = threesuperior;
 unicode = 00B3;
 },
 {
+glyphname = space;
+lastChange = "2024-11-25 23:02:52 +0000";
+layers = (
+{
+layerId = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
+width = 300;
+},
+{
+layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
+width = 300;
+}
+);
+unicode = 0020;
+},
+{
 glyphname = nonbreakingspace;
 lastChange = "2024-11-25 23:02:52 +0000";
 layers = (
@@ -126631,6 +126583,21 @@ width = 0;
 }
 );
 note = CR;
+},
+{
+glyphname = .notdef;
+lastChange = "2024-11-25 23:02:52 +0000";
+layers = (
+{
+layerId = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
+width = 376;
+},
+{
+layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
+width = 376;
+}
+);
+note = .notdef;
 },
 {
 glyphname = .null;
@@ -139791,18 +139758,18 @@ unicode = 00B8;
 );
 instances = (
 {
-instanceInterpolations = {
-"A6F4F1CF-B738-4D99-83C7-A0DEF7C73335" = 1;
-};
-name = Regular;
-},
-{
 interpolationWeight = 10;
 instanceInterpolations = {
 "A92E3ADA-722A-4108-B621-F991B1803EEA" = 1;
 };
 name = Light;
 weightClass = Light;
+},
+{
+instanceInterpolations = {
+"A6F4F1CF-B738-4D99-83C7-A0DEF7C73335" = 1;
+};
+name = Regular;
 }
 );
 unitsPerEm = 1000;
