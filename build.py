@@ -11,11 +11,11 @@ import statmake.lib
 path = Path("sources")
 
 def DSIG_modification(font:TTFont):
-    font["DSIG"] = newTable("DSIG")     #need that stub dsig
-    font["DSIG"].ulVersion = 1
-    font["DSIG"].usFlag = 0
-    font["DSIG"].usNumSigs = 0
-    font["DSIG"].signatureRecords = []
+    # font["DSIG"] = newTable("DSIG")     #Don't need anymore
+    # font["DSIG"].ulVersion = 1
+    # font["DSIG"].usFlag = 0
+    # font["DSIG"].usNumSigs = 0
+    # font["DSIG"].signatureRecords = []
     font["head"].flags |= 1 << 3        #sets flag to always round PPEM to integer
     font["gasp"] = newTable("gasp")
     font["gasp"].gaspRange = {65535: 0x000A} #Font is shipping UNHINTED :D
