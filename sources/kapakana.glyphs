@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3401";
 DisplayStrings = (
 "Âaj/space d´fhiacha\012KA's/space trancemission"
 );
@@ -121744,7 +121744,7 @@ nodes = (
 width = 554;
 }
 );
-note = ".notdef";
+note = .notdef;
 },
 {
 glyphname = .null;
@@ -121759,7 +121759,7 @@ layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
 width = 0;
 }
 );
-note = ".null";
+note = .null;
 },
 {
 glyphname = "comma-han";
@@ -139990,5 +139990,5 @@ GSDimensionPlugin.Dimensions = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
