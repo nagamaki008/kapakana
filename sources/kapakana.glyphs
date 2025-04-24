@@ -121638,15 +121638,15 @@ unicode = 0020;
 },
 {
 glyphname = nonbreakingspace;
-lastChange = "2024-11-28 22:16:46 +0000";
+lastChange = "2025-04-24 16:58:42 +0000";
 layers = (
 {
 layerId = "A6F4F1CF-B738-4D99-83C7-A0DEF7C73335";
-width = 300;
+width = 230;
 },
 {
 layerId = "A92E3ADA-722A-4108-B621-F991B1803EEA";
-width = 300;
+width = 200;
 }
 );
 note = nonbreakingspace;
